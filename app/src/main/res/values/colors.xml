@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="drama">#5E1FCF</color>
+    <color name="suspenso">#CC2316</color>
+    <color name="accion">#EDD505</color>
+    <color name="comedia">#11EE1A</color>
+    <color name="terror">#09F1DB</color>
+    <color name="fantasia">#99452A</color>
+</resources>

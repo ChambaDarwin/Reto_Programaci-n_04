@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/peliculasFragment">
+
+    <fragment
+        android:id="@+id/peliculasFragment"
+        android:name="app.aplicacion.retoprogramacin_03.ui.fragment.PeliculasFragment"
+        android:label="fragment_peliculas"
+        tools:layout="@layout/fragment_peliculas" >
+        <action
+            android:id="@+id/action_peliculasFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="app.aplicacion.retoprogramacin_03.ui.fragment.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/videoJuegoFragment"
+        android:name="app.aplicacion.retoprogramacin_03.ui.fragment.VideoJuegoFragment"
+        android:label="fragment_video_juego"
+        tools:layout="@layout/fragment_video_juego" >
+        <action
+            android:id="@+id/action_videoJuegoFragment_to_addFragment2"
+            app:destination="@id/addFragment" />
+    </fragment>
+</navigation>
